@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35vw;
+    margin-left: 40px;
+}
+
+nav img {
+    width: 142.1px;
+    height: 63.99px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 7vw;
+}
+
+nav ul div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contact-btn {
+    background-color: #FF2B85;
+    color: white;
+    padding: 10px 22px 10px 22px;
+    border-radius: 30px;
+}
+
+ul i {
+    font-size: 20px;
+}
+
+/*  */
+/*  */
+.banner-container {
+    background-image: url(https://pandaads.foodpanda.com/wp-content/uploads/2024/05/foodpanda-panda-ads.webp);
+    max-width: 1540px;
+    height: 62vh;
+    margin: 0 auto;
+    transform: translate(0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-heading {
+    font-family: roboto;
+    font-size: 61.44px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    line-height: 1;
+}
+
+.banner-para {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+}
+
+.btn {
+    text-decoration: none;
+    color: #FF2B85;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ffff;
+    padding: 12px 32px;
+    border-radius: 30px;
+    position: absolute;
+    top: 45vh;
+    left: 10vw;
+}
+
+/*  */
+.hero-heading {
+    font-family: roboto;
+    font-size: 42px;
+    font-weight: bolder;
+    color: black;
+    line-height: 1;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19vw;
+    margin-top: 50px;
+}
+
+.hero-text {
+    font-family: roboto;
+    font-size: 70px;
+    font-weight: bolder;
+    color: black;
+    line-height: 1;
+}
+
+.hero-text1 {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    line-height: 1;
+}
+
+/*  */
+.container {
+    height: 496px;
+    background-color: #f5f5f6;
+    margin-top: 10vh;
+    overflow: hidden;
+
+}
+
+.visibility {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.visibility h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 70px;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 110px;
+}
+
+.card {
+    flex: 1;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: roboto;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+    max-width: 390px;
+    margin: 0 auto;
+    font-family: poppins;
+    text-align: center;
+}

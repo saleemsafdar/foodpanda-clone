@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'roboto', Courier, monospace;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-links ul li a:hover{
+    color: #ff2b85;
+}
+.nav-btn button{
+    padding: 10px 20px;
+    background-color:#ff2b85;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: #ff2b85;
+}
+.about-hero-section{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-image: url('./assast/11.png');
+    background-size: cover;
+    background-position: center;
+}
+.about-hero-text{
+    padding-top: 200px;
+    padding-left: 100px;
+    color: white;
+    font-family: 'Poppins', Courier, monospace;
+}
+.about-hero-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.about-panda{
+    padding: 50px 100px;
+    
+}
+.text{
+    font-family: 'roboto', Courier, monospace;
+    font-size: 18px;
+    line-height: 1.6;
+    
+
+}
+.text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text p{
+    margin-bottom: 15px;
+    color: rgb(63, 61, 61);
+}
+.hero-half{
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+}
+.half-1 img{
+    width: 500px;
+    height: 300px;
+
+}
+.half-2{
+    margin-top: 50px;
+}
+.half-2 h2{
+    font-size: 30px;
+    font-family: 'roboto', Courier, monospace;
+
+}
+.half-2 p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(102, 100, 100);
+    line-height: 1.5;
+    font-family: 'poppins', Courier, monospace;
+}
+.half-2 button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff2b85;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'roboto', Courier, monospace;
+}
+.half-2 button:hover{
+    background-color: #ff2b85;
+}
+.values-container {
+    text-align: center;
+    max-width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #343a40; /* Dark Grey Heading */
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+/* Container to center the buttons using Flexbox */
+.button-wrapper {
+    display: flex;
+    padding-left: 50px;
+    flex-wrap: wrap;       /* Allows buttons to drop to next line */
+    justify-content: center;
+         /* Centers items horizontally */
+    gap: 15px;             /* Spacing between buttons */
+}
+
+/* --- THE BUTTON STYLES --- */
+
+/* 1. Base Style (Shared by all buttons) */
+.pill-btn {
+    padding: 12px 28px;      /* Vertical and Horizontal padding */
+    border-radius: 50px;     /* This creates the "Pill" shape */
+    font-weight: 700;        
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+/* 2. Pink Outline Style */
+.pink-outline {
+    border: 2px solid #d63384; /* The Pink Border */
+    color: #d63384;            /* The Pink Text */
+    background-color: white;
+}
+
+.pink-outline:hover {
+    background-color: #fff0f6; /* Light pink background on hover */
+}
+
+/* 3. Black Filled Style */
+.black-filled {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin-top: 10px; /* Extra space for the bottom button */
+}
+
+.black-filled:hover {
+    background-color: #333; /* Dark grey on hover */
+    border-color: #333;
+}
+
+.footer{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins', Courier, monospace;
+}
+.footer-logo img{
+    width: 150px;
+    height: auto;
+
+}
+.footer-links{
+    display: flex;
+    gap: 100px;
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links ul li{
+    margin-bottom: 10px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-socials a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.footer-links ul li a:hover{
+    color: #ff2b85;
+}
+.footer-copy p{
+    color: white;
+}
+/* =========================
+   FIX HOVER TYPO
+========================= */
+.background-clip:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+/* Tablet View (iPad, Small Laptops) */
+@media (max-width: 992px) {
+    .hero-half {
+        padding: 50px;
+        gap: 30px;
+    }
+
+    .hero-bottom {
+        padding: 50px;
+    }
+    
+    .footer-links {
+        gap: 50px;
+    }
+}
+
+/* Mobile View (Phones) */
+@media (max-width: 768px) {
+    
+    /* Navbar: Logo upar, links neeche */
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Hero Text: Center align aur padding adjust */
+    .hero-text {
+        padding-top: 100px; /* Thoda upar */
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-size: large;
+    }
+
+    /* Hero Bottom Para */
+    .hero-bottom {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    
+    .bottom-para p {
+        font-size: 24px; /* Font size chota kiya mobile ke liye */
+    }
+
+    /* Half Section: Image upar, text neeche */
+    .hero-half {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .half-2 h2 {
+        font-size: 28px;
+    }
+
+    /* Cards: Automatic stack ho jayenge kyunki 'flex-wrap: wrap' laga hai */
+    
+    /* Footer: Sab ek ke neeche ek */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+}
