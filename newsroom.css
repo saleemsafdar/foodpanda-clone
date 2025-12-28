@@ -194,81 +194,6 @@ body {
   color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero-section-newsroom h1{
     text-align: center;
     padding: 100px 20px;
@@ -559,4 +484,140 @@ footer{
     width: 100%;
     height: auto;
 }
+}
+/* =====================
+   GLOBAL FIX
+===================== */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =====================
+   PRESS SECTION
+===================== */
+@media (max-width: 992px) {
+
+  .press-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .press-card {
+    flex-direction: column;
+  }
+
+  .press-img,
+  .press-text {
+    width: 100%;
+  }
+
+  .press-text {
+    padding: 40px;
+  }
+
+  .press-text h2 {
+    font-size: 28px;
+  }
+}
+
+/* =====================
+   DISCOVER BAR
+===================== */
+@media (max-width: 992px) {
+
+  .discover-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .discover-left h2 {
+    font-size: 28px;
+  }
+
+  .discover-right {
+    margin-left: 0;
+  }
+}
+
+/* =====================
+   MOBILE FIXES
+===================== */
+@media (max-width: 768px) {
+
+  /* PRESS */
+  .press-wrapper {
+    margin: 40px auto;
+  }
+
+  .press-title {
+    font-size: 32px;
+  }
+
+  .press-text {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .press-text h2 {
+    font-size: 24px;
+  }
+
+  .meta {
+    justify-content: center;
+  }
+
+  /* DISCOVER */
+  .discover-bar {
+    align-items: center;
+    text-align: center;
+  }
+
+  .discover-center {
+    justify-content: center;
+  }
+
+  .filter {
+    font-size: 13px;
+    padding: 8px 18px;
+  }
+
+  .show-more {
+    width: 100%;
+  }
+
+  /* NEWSROOM */
+  .hero-section-newsroom h1 {
+    font-size: 28px;
+    padding: 60px 20px;
+  }
+
+  .card-1 p {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+}
+
+/* =====================
+   SMALL MOBILE
+===================== */
+@media (max-width: 480px) {
+
+  .press-title {
+    font-size: 26px;
+  }
+
+  .press-text h2 {
+    font-size: 20px;
+  }
+
+  .discover-left h2 {
+    font-size: 22px;
+  }
+
+  .filter {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
 }

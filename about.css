@@ -302,3 +302,164 @@ h1 {
         margin-bottom: 20px;
     }
 }
+/* =========================
+   GLOBAL RESPONSIVE FIXES
+========================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.about-hero-section {
+    height: 60vh;
+}
+
+.about-hero-text {
+    padding-top: 180px;
+    padding-left: 80px;
+}
+
+/* =========================
+   HERO HALF SECTION
+========================= */
+
+.hero-half {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.half-1 img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* =========================
+   VALUES SECTION
+========================= */
+
+.values-container {
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.button-wrapper {
+    padding-left: 0;
+}
+
+/* =========================
+   TABLET VIEW
+========================= */
+@media (max-width: 992px) {
+
+    .nav {
+        padding: 15px 30px;
+    }
+
+    .about-hero-text {
+        padding-top: 150px;
+        padding-left: 40px;
+    }
+
+    .about-hero-text h1 {
+        font-size: 40px;
+    }
+
+    .about-panda {
+        padding: 40px;
+    }
+
+    .hero-half {
+        padding: 50px;
+        gap: 30px;
+    }
+
+    .footer-links {
+        gap: 50px;
+    }
+}
+
+/* =========================
+   MOBILE VIEW
+========================= */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* HERO SECTION */
+    .about-hero-section {
+        height: 50vh;
+    }
+
+    .about-hero-text {
+        padding: 0 20px;
+        padding-top: 120px;
+        text-align: center;
+    }
+
+    .about-hero-text h1 {
+        font-size: 32px;
+    }
+
+    /* ABOUT TEXT */
+    .about-panda {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 32px;
+    }
+
+    /* HERO HALF */
+    .hero-half {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .half-2 {
+        margin-top: 20px;
+    }
+
+    .half-2 h2 {
+        font-size: 26px;
+    }
+
+    .half-2 p {
+        font-size: 16px;
+    }
+
+    /* VALUES BUTTONS */
+    .button-wrapper {
+        justify-content: center;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+        padding: 30px 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 25px;
+    }
+}

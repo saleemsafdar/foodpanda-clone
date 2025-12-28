@@ -208,3 +208,147 @@ textarea {
     transform: scale(1.05);
     transition: transform 0.5s ease;
 }
+/* =====================
+   GLOBAL FIX
+===================== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =====================
+   TABLET VIEW (≤992px)
+===================== */
+@media (max-width: 992px) {
+
+    /* NAVBAR */
+    .nav {
+        padding: 15px 30px;
+    }
+
+    /* BANNER */
+    .banner-container {
+        height: 55vh;
+    }
+
+    .banner-heading {
+        font-size: 48px;
+        top: 35vh;
+        left: 6vw;
+    }
+
+    /* CONTACT SECTION */
+    .form-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .form-wrapper {
+        margin-left: 0;
+        max-width: 90%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .name-group {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+    .contact-pic {
+        width: 90%;
+        height: auto;
+    }
+
+    /* FOOTER */
+    .footer-links {
+        gap: 50px;
+    }
+}
+
+/* =====================
+   MOBILE VIEW (≤768px)
+===================== */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* BANNER */
+    .banner-container {
+        height: 45vh;
+    }
+
+    .banner-heading {
+        font-size: 32px;
+        position: static;
+        text-align: center;
+        padding-top: 140px;
+    }
+
+    /* CONTACT HEADING */
+    .contact-heading {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 6vh;
+    }
+
+    /* FORM */
+    .form-wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* IMAGE */
+    .contact-pic {
+        width: 100%;
+    }
+
+    /* INFO BOX */
+    .container {
+        padding: 20px;
+        height: auto;
+    }
+
+    .para {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
